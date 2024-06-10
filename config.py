@@ -13,9 +13,9 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
+    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/0737a4e61db2065771a35.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5050376364 6887525311').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002056340901") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "+E60y6hIjVSoxOWI1") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123581785"))
     
     # wes response configuration     
