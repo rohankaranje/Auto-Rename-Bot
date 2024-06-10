@@ -3,20 +3,20 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "27996421")
+    API_HASH  = os.environ.get("API_HASH", "5f5cb6a13ecff3d90e1ec73dc366e26d")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7062467963:AAES6S5bp7-9V7OvJYESfdn9DGndBJIdqB4") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","AshutoshGoswami24")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","rename")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://codiyoc903:R8JnDcnrsRh6wy3D@cluster0.z1avpag.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5050376364 6887525311').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002056340901") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123581785"))
     
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
@@ -35,9 +35,7 @@ class Txt(object):
     
 ➻ Use /tutorial Command To Know How To Use Me.
 
-<b>Bot Is Made By @PandaWep</b>
-
-<b><a href='https://github.com/AshutoshGoswami24/Auto-Rename-Bot'>AshutoshGoswami24/Auto-Rename-Bot.git</a></b>
+<b>Bot Is Made By @rohankaranjep</b>
 """
     
     FILE_NAME_TXT = """<b><u>SETUP AUTO RENAME FORMAT</u></b>
@@ -55,8 +53,8 @@ Use These Keywords To Setup Custom File Name
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/PandaWep'>PandaWep</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/PandaWep'>PandaWep</a>
+<b>📢 Channel :</b> <a href=''>Cinehunts</a>
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/rohankaranje'>rohankaranje</a>
     
 <b>♻️ Bot Made By :</b> @PandaWep"""
 
@@ -80,7 +78,7 @@ Use These Keywords To Setup Custom File Name
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
 ┣⪼ ⏰️ Eᴛᴀ: {4}
-┣⪼ 🥺 joine Plz: @PandaWep
+┣⪼ 🥺 joine Plz: @rohankaranje
 ╰━━━━━━━━━━━━━━━➣ </b>"""
     
     
@@ -88,11 +86,11 @@ Use These Keywords To Setup Custom File Name
     
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
     
-<b>My UPI - PandaWep@ybl</b> """
+<b>My UPI - </b> """
     
     HELP_TXT = """<b>Hey</b> {}
     
-Joine @PandaWep To Help """
+Joine To Help """
 
 
 
