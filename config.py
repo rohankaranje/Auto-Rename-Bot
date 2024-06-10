@@ -35,7 +35,7 @@ class Txt(object):
     
 ➻ Use /tutorial Command To Know How To Use Me.
 
-<b>Bot Is Made By @rohankaranjep</b>
+<b>Bot Is Made By @rohankaranje</b>
 """
     
     FILE_NAME_TXT = """<b><u>SETUP AUTO RENAME FORMAT</u></b>
@@ -56,7 +56,7 @@ Use These Keywords To Setup Custom File Name
 <b>📢 Channel :</b> <a href=''>Cinehunts</a>
 <b>🧑‍💻 Developer :</b> <a href='https://t.me/rohankaranje'>rohankaranje</a>
     
-<b>♻️ Bot Made By :</b> @PandaWep"""
+<b>♻️ Bot Made By :</b> @rohankaranje"""
 
     
     THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
