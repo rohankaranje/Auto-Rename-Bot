@@ -5,11 +5,11 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "27996421")
     API_HASH  = os.environ.get("API_HASH", "5f5cb6a13ecff3d90e1ec73dc366e26d")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6653164307:AAGpjxamc0qsX47qNtdNm5qS6JiEHYMJJnQ") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7160637539:AAG-a4kAtIY8rKxSnUWoPgXEVQ2fljq_zRE") 
     
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","rename")     
+    DB_NAME = os.environ.get("DB_NAME","renamewww")     
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://codiyoc903:R8JnDcnrsRh6wy3D@cluster0.z1avpag.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     # DB_URL  = os.environ.get("mongodb+srv://beyekec464:NpeHanfZJwDz1YGE@cluster0.cafwct1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
@@ -17,7 +17,7 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/0737a4e61db2065771a35.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5050376364 6887525311').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "+E60y6hIjVSoxOWI1") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "enewj") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123581785"))
     
     # wes response configuration     
