@@ -10,8 +10,8 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","rename")     
-    #DB_URL  = os.environ.get("DB_URL","mongodb+srv://codiyoc903:R8JnDcnrsRh6wy3D@cluster0.z1avpag.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-    DB_URL  = os.environ.get("mongodb+srv://beyekec464:NpeHanfZJwDz1YGE@cluster0.cafwct1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://codiyoc903:R8JnDcnrsRh6wy3D@cluster0.z1avpag.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    # DB_URL  = os.environ.get("mongodb+srv://beyekec464:NpeHanfZJwDz1YGE@cluster0.cafwct1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
