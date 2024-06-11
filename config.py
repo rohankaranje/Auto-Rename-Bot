@@ -10,9 +10,9 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","renamewww")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://codiyoc903:R8JnDcnrsRh6wy3D@cluster0.z1avpag.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://cijiy83739:UNR4AkUEZNg9a0jL@cluster0.u8iw9we.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     # DB_URL  = os.environ.get("mongodb+srv://beyekec464:NpeHanfZJwDz1YGE@cluster0.cafwct1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
- 
+     # mongodb+srv://codiyoc903:R8JnDcnrsRh6wy3D@cluster0.z1avpag.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/0737a4e61db2065771a35.jpg")
