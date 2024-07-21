@@ -5,13 +5,13 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "27996421")
     API_HASH  = os.environ.get("API_HASH", "5f5cb6a13ecff3d90e1ec73dc366e26d")
-    # BOT_TOKEN = os.environ.get("BOT_TOKEN", "7061401463:AAHlTvU-VjY74Cm2obpoRH3Z3jzYrKQZWA4") 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6653164307:AAGxsYWUBQxUMwWxo6SzE-6_bHe8ekBA-7E") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7061401463:AAHlTvU-VjY74Cm2obpoRH3Z3jzYrKQZWA4") 
+    # BOT_TOKEN = os.environ.get("BOT_TOKEN", "6653164307:AAGxsYWUBQxUMwWxo6SzE-6_bHe8ekBA-7E") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","rename")     
-    # DB_URL  = os.environ.get("DB_URL","mongodb+srv://cijiy83739:UNR4AkUEZNg9a0jL@cluster0.u8iw9we.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-    DB_URL  = os.environ.get("mongodb+srv://beyekec464:NpeHanfZJwDz1YGE@cluster0.cafwct1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://cijiy83739:UNR4AkUEZNg9a0jL@cluster0.u8iw9we.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    # DB_URL  = os.environ.get("mongodb+srv://beyekec464:NpeHanfZJwDz1YGE@cluster0.cafwct1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
      # mongodb+srv://codiyoc903:R8JnDcnrsRh6wy3D@cluster0.z1avpag.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
     # other configs
@@ -48,7 +48,7 @@ Use These Keywords To Setup Custom File Name
 ✓ episode :- To Replace Episode Number
 ✓ quality :- To Replace Video Resolution
 
-<b>➻ Example :</b> <code> /autorename Naruto Shippuden S02 - EPepisode - quality  [Dual Audio] - @PandaWep </code>
+<b>➻ Example :</b> <code> /autorename Naruto Shippuden S02 - EPepisode - quality  [Dual Audio] - @cinehunts </code>
 
 <b>➻ Your Current Auto Rename Format :</b> <code>{format_template}</code> """
     
